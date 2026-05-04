@@ -34,7 +34,7 @@ const projects = [
   {
     name: 'TF-IDF Based Text Retrieval System',
     description:
-      'Built a search engine by implementing TF-IDF from scratch and using cosine similarity for document ranking and query matching.',
+      'Built a search engine by implementing TF-IDF from   using cosine similarity for document ranking and query matching.',
     stack: ['Python', 'NumPy', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
