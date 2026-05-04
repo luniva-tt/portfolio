@@ -23,46 +23,46 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: '1. Curriculum-Based QnA & Quiz Generation System (RAG)',
+    name: 'SwiftStudy - AI-Powered Learning Platform',
     description:
-      'Built a retrieval-augmented NLP system to answer questions and generate quizzes from textbook content using semantic search and transformer-based generation.',
+      'Built an intelligent study platform integrating RAG-based content retrieval and YouTube video summarization, along with interactive virtual chemistry labs for experiential learning.',
+    stack: ['Python', 'LangChain', 'SentenceTransformers', 'Ollama'],
+    sourceCode: 'https://github.com/luniva-tt/SwiftStudy.git',
+    livePreview: 'https://github.com',
+    image: 'cleanfolio.png',
+  },
+  {
+    name: 'Mamacare - Maternal Care System',
+    description:
+      'Developed a comprehensive maternal health system featuring risk prediction, a RAG-based medical chatbot, and geospatial routing to nearby emergency services.',
+    stack: ['Python', 'FastAPI', 'Scikit-learn', 'Pydantic', 'SentenceTransformers', 'LangChain', 'Ollama', 'GeoPandas'],
+    sourceCode: 'https://github.com/luniva-tt/nepal-pregancy.git',
+    livePreview: 'https://github.com',
+    image: 'cleanfolio.png',
+  },
+  {
+    name: 'Curriculum-Based QnA System (RAG)',
+    description:
+      'Designed a retrieval-augmented question answering system using semantic search and transformer-based generation over structured textbook data.',
     stack: ['Python', 'SentenceTransformers', 'FAISS', 'Flan-T5', 'NumPy', 'Pandas'],
     sourceCode: 'https://github.com/luniva-tt/qna-w-rag.git',
+    livePreview: 'cleanfolio.png',
+  },
+  {
+    name: 'Exersense - Video Pose Classification',
+    description:
+      'Implemented a spatio-temporal ensemble model combining R3D-18 and CNN-LSTM architectures to classify human poses from video sequences.',
+    stack: ['Python', 'PyTorch', 'OpenCV', 'R3D-18', 'CNN', 'LSTM'],
+    sourceCode: 'https://github.com/luniva-tt/pose_video_classification.git',
     livePreview: 'https://github.com',
     image: 'cleanfolio.png',
   },
   {
-    name: 'TF-IDF Based Text Retrieval System',
+    name: 'Real-Time People Counter',
     description:
-      'Built a search engine by implementing TF-IDF from   using cosine similarity for document ranking and query matching.',
-    stack: ['Python', 'NumPy', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 4',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
-  },
-  {
-    name: 'Project 5',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+      'Built a real-time people counting system using YOLOv8 and OpenCV to track entries and exits from live video streams.',
+    stack: ['Python', 'YOLOv8', 'OpenCV', 'NumPy', 'Pandas'],
+    sourceCode: 'https://github.com/luniva-tt/pplcounter.git',
     livePreview: 'https://github.com',
     image: 'cleanfolio.png',
   }
