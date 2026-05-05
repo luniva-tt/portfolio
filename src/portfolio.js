@@ -8,11 +8,11 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Loonibha Tamrakar',
   role: 'Aspiring AI/ML Engineer',
-  picture: 'luni.png',
+  picture: 'https://github.com/luniva-tt/portfolio/blob/main/public/images/luni.png?raw=true',
 
   description:
     'Machine Learning enthusiast with hands-on experience building applied AI systems across natural language processing and deep learning. I have worked on projects involving semantic search, text classification, and sequence modeling, with a focus on practical implementation, evaluation, and iterative improvement. I am especially interested in applied AI and continuously learning about modern techniques in machine learning and NLP. ',
-  resume: 'resume.pdf',
+  resume: 'https://github.com/luniva-tt/portfolio/blob/main/public/resume.pdf?raw=true',
   social: {
     linkedin: 'https://www.linkedin.com/in/loonibha-tamrakar/',
     github: 'https://github.com/luniva-tt',
@@ -47,6 +47,7 @@ const projects = [
     stack: ['Python', 'SentenceTransformers', 'FAISS', 'Flan-T5', 'NumPy', 'Pandas'],
     sourceCode: 'https://github.com/luniva-tt/qna-w-rag.git',
     livePreview: 'cleanfolio.png',
+    image: 'cleanfolio.png',
   },
   {
     name: 'Exersense - Video Pose Classification',
